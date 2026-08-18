@@ -136,7 +136,7 @@
               <h4>${nameWithHq(item.caseA.name)}</h4>
               <p>${escapeHtml(item.caseA.descriptor)}</p>
             </div>
-            <strong>${escapeHtml(item.caseA.focus)}</strong>
+            <p class="case-panel__change"><span>무엇을 → 무엇으로</span>${escapeHtml(item.caseA.focus)}</p>
             <p>${escapeHtml(item.caseA.detail)}</p>
             <small>${escapeHtml(item.caseA.basis)}</small>
           </article>
@@ -147,7 +147,7 @@
               <h4>${nameWithHq(item.caseB.name)}</h4>
               <p>${escapeHtml(item.caseB.descriptor)}</p>
             </div>
-            <strong>${escapeHtml(item.caseB.focus)}</strong>
+            <p class="case-panel__change"><span>무엇을 → 무엇으로</span>${escapeHtml(item.caseB.focus)}</p>
             <p>${escapeHtml(item.caseB.detail)}</p>
             <small>${escapeHtml(item.caseB.basis)}</small>
           </article>

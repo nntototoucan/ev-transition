@@ -237,7 +237,8 @@ h1 {
 .hq-name { color: inherit; font-size: inherit; font-weight: inherit; }
 .hq-flag { width: 1.28em; height: 0.88em; object-fit: cover; border: 1px solid rgba(16, 40, 33, 0.2); border-radius: 1px; vertical-align: 0.08em; }
 .case-panel__header p { margin: 0; color: var(--ink-soft); font-size: 0.76rem; }
-.case-panel > strong { display: block; margin: 17px 0 7px; color: var(--green); font-size: 0.88rem; }
+.case-panel__change { display: grid; gap: 5px; margin: 17px 0 10px; color: var(--green); font-size: 0.88rem; font-weight: 800; }
+.case-panel__change span { color: var(--orange); font-size: 0.66rem; font-weight: 900; letter-spacing: 0.02em; }
 .case-panel > p { margin: 0; color: var(--ink-soft); font-size: 0.82rem; }
 .case-panel > small { display: block; margin-top: 16px; color: var(--orange); font-size: 0.68rem; font-weight: 800; }
 .case-comparison__vs { display: grid; place-items: center; color: var(--white); background: var(--green); font-size: 0.74rem; font-weight: 900; }
@@ -387,7 +388,7 @@ h1 {
 
 /* 웹 화면은 본문과 제목의 대비를 유지하면서 과도한 확대를 줄인다. 모바일은 현재 확대 수준을 유지한다. */
 @media (min-width: 901px) {
-  html { font-size: 112.5%; }
+  html { font-size: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
